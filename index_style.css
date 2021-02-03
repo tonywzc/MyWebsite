@@ -17,5 +17,7 @@ p {
 }
 
 #myImage{
+  position: fixed;
+  left: 300px;
   will-change: transform, color;
 }
