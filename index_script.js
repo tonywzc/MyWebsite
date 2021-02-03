@@ -1,4 +1,4 @@
-document.getElementById("myImage").innerHTML = "Hello Spongebob!";
+//document.getElementById("myImage").innerHTML = "Hello Spongebob!";
 
 var imgObj = null;
             
