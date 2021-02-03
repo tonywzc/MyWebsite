@@ -1,19 +1,53 @@
 <!DOCTYPE html>
+<html>
+
 <head>
+  <meta charset="utf-8" />
   <title>Tony Wang Says Hello!!</title>
   <link rel="stylesheet" href="index_style.css">
   <script src="index_script.js"></script>
 </head>
 
+
 <body>
 
-  <h1>Notice</h1>
-    <p>This is Tony Wang's personal website. The site is still under construction. Thank you for visiting. New test 7777</p>
-    <form>
+  
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper">
+          <a href="index.html">Home</a>
+        </div>
+        <div class="nav-link-wrapper">
+          <a href="about.html">About me</a>
+        </div>
+        <div class="nav-link-wrapper">
+          <a href="https://www.microsoft.com/en-us/msservices/consulting?activetab=pivot1%3aprimaryr4">Where I work</a>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="name_logo">
+          <div>Tony Wang 汪子淳</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <h1>405 - You found it</h1>
+  <p>This is Tony Wang's personal website. The site is still under construction. Thank you for visiting.</p>
+  <form class="play-sponge">
+    <div class="sponge">
       <img id="myImage" src="spongebob.png">
-      <p>Click button below to move the image to right</p>
-      <input id = "button1" type = "button" value = "Click Me" onclick = "moveRight();" />
-    </form>
+    </div>
+    <div class="sponge-instructionandbutton">
+      <p>For now, please play with SpongeBob while you wait. Click the button to make him move</p>
+      <input id = "button1" type = "button" value = "Click Me" onclick = "moveRight();" /> 
+    </div>
+  </form>
 
 
 </body>
+</html>

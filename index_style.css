@@ -1,6 +1,9 @@
 body {
-    background-color: lightblue;
-  }
+  margin: 0px;
+  background-color: lightblue;
+}
+
+
   
 h1 {
   text-align: center;
@@ -29,5 +32,59 @@ p {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  align-self: center;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateX(200px);
+  transform: translateX(200px);
+
+}
+
+/* .play-sponge{
+  height: 1000px;
+  position: relative;
+}
+
+.sponge-instructionandbutton{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+} */
+
+.nav-wrapper{
+  display:flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+
+.left-side{
+  display:flex;
+}
+
+.nav-wrapper > .left-side > div{
+  margin-right:20px;
+  font-size:0.9em;
+  text-transform: uppercase;
+}
+
+.nav-link-wrapper{
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a{
+  color: #8a8a8a; 
+  text-decoration: none;
+  transition: color 0.5s;
+
+}
+
+.nav-link-wrapper:hover{
+  border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover{
+  color: black;
 }
