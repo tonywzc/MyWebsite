@@ -1,17 +1,14 @@
 document.getElementById("myImage").innerHTML = "Hello Spongebob!";
 
-var SpongeTumbling = [
-    { transform: 'rotate(0) translate3D(-50%, -50%, 0)'}, 
-    { transform: 'rotate(360deg) translate3D(-50%, -50%, 0)'}
-  ];
-  
-  var SpongeTiming = {
-    duration: 3000,
-    iterations: Infinity
-  }
+var imgObj = null;
+            
+function init() {
+   imgObj = document.getElementById('myImage');
+   imgObj.style.position= 'relative'; 
+   imgObj.style.left = '0px'; 
+}
+function moveRight() {
+   imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
+}
 
-
-document.getElementById("myImage").animate(
-    SpongeTumbling,
-    SpongeTiming
-)
+window.onload = init;
