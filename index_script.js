@@ -1,8 +1,7 @@
 document.getElementById("myImage").innerHTML = "Hello Spongebob!";
 document.getElementById("myImage").animate([
     // keyframes
-    { transform: 'translateY(0px)' },
-    { transform: 'translateY(-300px)' }
+    { transform: 'rotate(360deg)' }
   ], {
     // timing options
     duration: 1000,
