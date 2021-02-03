@@ -1,6 +1,8 @@
 //document.getElementById("myImage").innerHTML = "Hello Spongebob!";
 
 var imgObj = null;
+
+window.onload = init;
             
 function init() {
    imgObj = document.getElementById('myImage');
@@ -8,7 +10,6 @@ function init() {
    imgObj.style.left = '0px'; 
 }
 function moveRight() {
-   imgObj.style.left = parseInt(imgObj.style.left) + 150 + 'px';
+    document.getElementById("myImage").style.left = parseInt(document.getElementById("myImage").style.left) + 150 + 'px';
 }
 
-window.onload = init;

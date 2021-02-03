@@ -19,3 +19,7 @@ p {
 #myImage{
   will-change: transform, color;
 }
+
+#button1{
+  size: 30px;
+}
