@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Tony Wang Says Hello</title>
+  <link rel="stylesheet" href="index_style.css">
+</head>
+
+
+<body>
+
+  
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper">
+          <a href="index.html">Home</a>
+        </div>
+        <div class="nav-link-wrapper">
+          <a href="about.html">About me</a>
+        </div>
+        <div class="nav-link-wrapper">
+          <a href="https://www.microsoft.com/en-us/msservices/consulting?activetab=pivot1%3aprimaryr4">Where I work</a>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="name_logo">
+          <div>Tony Wang 
+            <br>汪子淳的自留地
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="portfolio-items-wrapper">
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background"style="background-image:url(images/grid1.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img class="logos" src="images/logos/logo_grid_1.svg">
+            </div>
+            <div class="subtitle">
+              Part 1 of me: Cooking
+              <br><br><br>
+              The fact that as a human I can utilize different tools to turn raw substances into delicious food amazes me every single day. 
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background"style="background-image:url(images/grid2.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img class="logos" src="images/logos/logo_grid_2.svg">
+            </div>
+            <div class="subtitle">
+              Part 2 of me: Sports
+              <br><br><br>
+              Working out can be both fun and exhausting. But I believe it is what keep you living, not just alive.
+            </div>
+          </div>
+        </div>
+          
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background"style="background-image:url(images/grid3.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img class="logos" src="images/logos/logo_grid_3.svg">
+            </div>
+            <div class="subtitle">
+              Part 3 of me: Music
+              <br><br><br>
+              Growing up by the side of a piano, music is the last thing in my life to give up. 
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background"style="background-image:url(images/grid4.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img class="logos" src="images/logos/logo_grid_4.svg">
+            </div>
+            <div class="subtitle">
+              Part 4 of me: Writing
+              <br><br><br>
+              The best form of communication to create a immersive environment that is different for everyone. Love short stories. 
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background"style="background-image:url(images/grid5.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img class="logos" src="images/logos/logo_grid_5.png">
+            </div>
+            <div class="subtitle">
+              Part 5 of me: Coding
+              <br><br><br>
+              Foundation of modern world. I have familiarized myself with this realm of 0s and 1s. Should learn more. Will learn more. 
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background"style="background-image:url(images/grid6.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img class="logos" src="images/logos/logo_grid_6.svg">
+            </div>
+            <div class="subtitle">
+              Part 6 of me: Laugh
+              <br><br><br>
+              Stand up comedy is something I cannot stop watching. I will a happy flower whenever there's nothing big to upset me. In other words - life is fantastic. 
+            </div>
+          </div>
+        </div>
+      
+
+      </div> 
+      <!-- This is portfolio-items-wrapper -->
+
+    </div>
+    <!-- This is content-wrapper -->
+  
+    <div class="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper">
+          <a href="https://wpbarista.com/the-complete-template-for-a-bloggers-privacy-policy/">Privacy</a>
+        </div>
+        <div class="nav-link-wrapper">
+          <a href="about.html">Terms</a>
+        </div>
+      </div>
+      <div class="right-side">
+        <div id="footnote-signature" class="name_logo">
+          <div>&copy 2021, Developed by Tony Wang</div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+  <!-- This is container -->
+
+
+
+
+</body>
+<script>
+  const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+
+  portfolioItems.forEach(portfolioItem => {
+    portfolioItem.addEventListener('mouseover', () => {
+      portfolioItem.childNodes[1].classList.add('img-darken');
+    })
+
+    portfolioItem.addEventListener('mouseout', () => {
+      portfolioItem.childNodes[1].classList.remove('img-darken');
+    })
+  })
+</script>
+</html>
