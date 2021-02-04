@@ -1,9 +1,16 @@
+/* Master styles */
+
 body {
   margin: 0px;
   background-color: lightblue;
 }
 
+.cnotainer{
+  display: grid;
+  grid-template-columns: 1fr; /* one frational unit, 100 percent */
+}
 
+/* Index notice and SpongeBob sytles */
   
 h1 {
   text-align: center;
@@ -52,6 +59,10 @@ p {
   transform: translateY(-50%);
 } */
 
+
+
+/* Navigation bar styles */
+
 .nav-wrapper{
   display:flex;
   justify-content: space-between;
@@ -87,4 +98,77 @@ p {
 
 .nav-link-wrapper a:hover{
   color: black;
+}
+
+
+/* Portfolio styles */
+
+.portfolio-items-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrapper{
+  position: relative;
+}
+
+.portfolio-img-background{
+  height: 750px;
+  width: 100%;
+  background-size: cover;   /* This cropps the image so they are the same size in the grid */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img-text-wrapper{
+  position: absolute;   /* absolute element must lie in a relative container (position) */
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  /* padding-left: 100px;
+  padding-right: 100px; */
+}
+
+.logo-wrapper img {
+  height: auto;
+  width:50%;
+  margin-bottom: 20px;
+}
+
+
+
+.img-text-wrapper .logos{
+  transition: 1s;
+  opacity: 0;
+}
+
+.img-text-wrapper:hover .logos{
+  opacity: 1;
+}
+
+.subtitle{
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.img-text-wrapper .subtitle{
+  font-weight: 600;
+  transition: 1s;
+  color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle{
+  font-weight: 600;
+  color:lightseagreen;
+}
+
+.img-darken{
+  transition: 1s;
+  filter: brightness(10%);
 }
