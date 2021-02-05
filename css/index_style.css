@@ -26,39 +26,41 @@ p {
   color: black;
 }
 
-#myImage{
-  will-change: transform, color;
-}
+/* divier style */
 
-#button1{
-  background-color: #4CAF50; /* Green */
+hr.head-divider {
+  overflow: visible; /* For IE */
+  padding: 0;
   border: none;
-  color: white;
-  padding: 15px 32px;
+  border-top: 0.5px solid lightgray;
+  /* background-image: linear-gradient(to right, white, rgb(29, 43, 54), white);
+  color: white; */
   text-align: center;
-  text-decoration: none;
+  margin-bottom: 15px;
+}
+hr.head-divider:after {
+  content: "§";
   display: inline-block;
-  font-size: 16px;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateX(200px);
-  transform: translateX(200px);
-
-}
-
-/* .play-sponge{
-  height: 1000px;
   position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: transparent;
+  color:white;
 }
 
-.sponge-instructionandbutton{
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-} */
-
+hr.foot-divider {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  height: 1px;
+  /* border-top: 1px solid lightsteelblue; */
+  /* color: whitesmoke; */
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: -15px;
+  background-image: linear-gradient(to right, whitesmoke, rgb(29, 43, 54), whitesmoke);
+}
 
 
 /* Navigation bar styles */
@@ -68,7 +70,15 @@ p {
   justify-content: space-between;
   align-items: center;
   padding: 25px;
-  padding-bottom: 22px;
+  padding-bottom: 5px;
+}
+
+#foot{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  padding-bottom: 10px;
 }
 
 .left-side{
