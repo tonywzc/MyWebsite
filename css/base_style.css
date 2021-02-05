@@ -83,27 +83,6 @@ h1 {
     color: white;
   }
 
-  /* About page content styles */
-
-  .two-column-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .profile-image-wrapper{
-    padding: 30px;
-    padding-left: 60px;
-  }
-
-  .profile-image-wrapper img{
-    width: 100%;
-  }
-
-  .profile-content-wrapper {
-    padding: 30px;
-    padding-right: 60px;
-  }
-
 /* divier style */
   
 hr.head-divider {
@@ -145,7 +124,80 @@ hr.foot-divider {
   align-content: left;
 }
 
+/* Below is general writing.html content style */
 
+.three-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
 
+.article-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
 
-  
+.my-articles{
+    text-align: center;
+    list-style-position: inside;
+    width: 800px;
+    color:white;
+
+}
+
+.my-articles li{
+    display: flexbox;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px 20px; 
+    margin: 5px 0;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.my-articles li:nth-child(1){
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.my-articles li:nth-child(2){
+    background: rgba(255, 255, 255, 0.55);
+}
+
+.my-articles li:nth-child(3){
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.my-articles li span:nth-child(1){
+    margin-left: 30px;
+    width: 30px;
+}
+
+.my-articles li span:nth-child(2){
+    width: 300px;
+}
+
+.my-articles li span:nth-child(3){
+    width: 30px;
+}
+
+.my-articles li:hover{
+    transform: scale(1.1);
+    background: rgb(29, 43, 54);
+}
+
+/* .article-name{
+    color: white;
+}
+
+.article-upload-date{
+    color:white;
+}
+
+.article-tag{
+    color:white;
+} */
+
+/* Below is 郝先生.html style */
+
+#haoxiansheng{
+    color: white;
+}
