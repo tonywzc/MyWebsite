@@ -124,3 +124,30 @@ hr.foot-divider {
   align-content: left;
 }
 
+/* Contact me style */
+
+.grid-wrapper{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 1em;
+}
+
+.grid-wrapper > div{
+    background: #eee;
+    padding: 1em;
+    margin: 15em 3em;
+    color: black;
+    align-items: center;
+}
+
+.grid-wrapper > div > p{
+    color: black;
+    text-align: center;
+}
+
+#insicon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:7.5%;
+}
