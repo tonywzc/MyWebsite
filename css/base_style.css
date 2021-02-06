@@ -126,6 +126,10 @@ hr.foot-divider {
 
 /* Below is general writing.html content style */
 
+a, a:visited {
+  color: white;
+}
+
 .three-column-wrapper {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -146,42 +150,95 @@ hr.foot-divider {
 }
 
 .my-articles li{
-    display: flexbox;
-    background: rgba(255, 255, 255, 0.3);
+    display: flex;
+    background: rgba(255, 255, 255, 0.1);
     padding: 10px 20px; 
     margin: 5px 0;
     transition: 0.5s;
     border-radius: 10px;
 }
 
-.my-articles li:nth-child(1){
-    background: rgba(255, 255, 255, 0.7);
+#article-header{
+  background:rgb(29, 43, 54);
+  transition: none;
+  margin-bottom: 10px;
 }
 
-.my-articles li:nth-child(2){
-    background: rgba(255, 255, 255, 0.55);
+#article-header .upload-tag{
+  background: none;
 }
 
-.my-articles li:nth-child(3){
-    background: rgba(255, 255, 255, 0.4);
+/* .my-articles li::marker{
+  margin-left: -30px;
+} */
+
+/* .my-articles a:nth-child(1){
+    font-weight: 1000;
+    background: rgba(35, 255, 255, 0.6);
+} */
+
+#article-link1 li{
+  background: rgba(255, 255, 255, 0.6);
 }
+
+#article-link2 li{
+  background: rgba(255, 255, 255, 0.4);
+}
+
+#article-link3 li{
+  background: rgba(255, 255, 255, 0.25);
+}
+
+#article-link1 li:hover, #article-link2 li:hover, #article-link3 li:hover{
+  transform: scale(1.1);
+  background: rgb(29, 43, 54);
+}
+
+/* .my-articles li span{
+  display: flex;
+  justify-content: space-around;
+} */
 
 .my-articles li span:nth-child(1){
     margin-left: 30px;
-    width: 30px;
+    width: 80px;
 }
 
 .my-articles li span:nth-child(2){
-    width: 300px;
+    width: 200px;
 }
 
 .my-articles li span:nth-child(3){
-    width: 30px;
+    width: 100px;
 }
+
+.my-articles li span:nth-child(4){
+  width: 100px;
+}
+
+.my-articles li span:nth-child(5){
+  width: 100px;
+}
+
+.my-articles li span:nth-child(6){
+  color: red;
+  background: rgb(255,215,0,1);
+  font-weight: 600;
+  border-radius: 5px;
+  width: 100px;
+  margin-left: 50px;
+  text-align: center;
+}
+
+
 
 .my-articles li:hover{
     transform: scale(1.1);
     background: rgb(29, 43, 54);
+}
+
+#article-header:hover{
+  transform: none;
 }
 
 /* .article-name{

@@ -66,6 +66,7 @@ hr.foot-divider {
 /* Navigation bar styles */
 
 .nav-wrapper{
+  position: sticky;
   display:flex;
   justify-content: space-between;
   align-items: center;

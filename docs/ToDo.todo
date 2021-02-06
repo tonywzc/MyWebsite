@@ -1,0 +1,61 @@
+
+'Cmd/Ctrl+Enter' // Triggers `Todo: Toggle Box`
+'Alt+Enter' // Triggers `Todo: Toggle Box`
+'Alt+D' // Triggers `Todo: Toggle Done`
+'Alt+C' // Triggers `Todo: Toggle Cancelled`
+'Alt+S' // Triggers `Todo: Toggle Start`
+'Cmd/Ctrl+Shift+A' // Triggers  `Todo: Archive`
+
+Formatting:
+    You can format text in a markdown-like fashion
+    Bold:
+      ☐ Use asterisks for *bold*
+    Italic:
+      ☐ Use underscores for _italic_
+    Strikethrough:
+      ☐ Use tildes for ~strikethrough~
+    Code:
+      ☐ Use backticks for `code`
+      
+=====================================================================================================================================================
+
+
+Design ideas:
+    ☐ make food part a recipe-like thing where you could hover on a picture
+    ☐ make laugh part a combination of links that I think will be good ()
+
+
+
+
+
+
+=====================================================================================================================================================
+
+Spongebob: (search for spongebob to the start of the project)
+
+Project:
+    ☐ Let's make a beautiful one-stop profile website about Tony Wang
+    General Todos:
+        ☐ add in privacy and terms @30m
+        ☐ add in all the links for the 6 parts @20m
+        ☐ construct contact me page @30m
+        ☐ make sure all the links are linking correctly @30m
+        ☐ design at a high level about what to do on each page @30m
+        ☐ make headers sticky @10m
+        
+    About Me Part:
+        ☐ make sure text is proportion to viewport @15m
+        ☐ fix the header padding (different from index) @15m
+    
+    404 Part:
+        ☐ put the click me button in a better position @15m
+    
+    Wriitng Part:
+        ✔ get every link on writing.html and its children working correctly @10m @done(21-02-05 14:26)
+        ✔ make each list item better looking and aligned correctly @45m @done(21-02-05 14:26)
+        ✔ update the current list items to be all of my previous Chinese articles @1h @done(21-02-05 14:26)
+        ☐ 
+
+    
+
+
