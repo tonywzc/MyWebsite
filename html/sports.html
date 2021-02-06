@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <title>Tony Wang Says Hello</title>
-  <link rel="stylesheet" href="../css/base_style.css">
+  <link rel="stylesheet" href="../css/sports_style.css">
 </head>
 
 
@@ -24,7 +24,7 @@
           <a href="https://www.microsoft.com/en-us/msservices/consulting?activetab=pivot1%3aprimaryr4">Where I work</a>
         </div>
         <div class="nav-link-wrapper">
-          <a href="../html/404.html">Contact me</a>
+          <a href="../html/contactme.html">Contact me</a>
         </div>
       </div>
       <div class="right-side">
@@ -38,7 +38,15 @@
 
     <hr class="head-divider">
     
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti assumenda recusandae alias facilis dolorum? Exercitationem possimus iste similique rem commodi quidem cum et, esse velit voluptates saepe mollitia, magni quos qui aspernatur blanditiis officiis officia error libero aperiam perspiciatis illum. Saepe recusandae repellat, incidunt aspernatur earum rerum ipsa tempore architecto dolore molestiae modi odit? Consequatur quos quo ipsam excepturi cupiditate accusamus consequuntur vel explicabo quaerat minus perspiciatis eos quod commodi saepe adipisci eaque culpa reiciendis est facere, dolor obcaecati. Ratione.</div>
+    <div class="grid-wrapper">
+      <div class="box" id="box1" style="background-image:url(../images/sports/wadeposter.png)">Box 1</div>
+      <div class="box" id="box2" style="background-image:url(../images/sports/swim.jfif)">Box 2</div>
+      <!-- <div class="box3" style="background-image:url(../images/sports/badminton.jpg)">Box 3</div> -->
+      <div class="box" id="box4" style="background-image:url(../images/sports/poolgame.jfif)">Box 4</div>
+      <div class="box" id="box5" style="background-image:url(../images/sports/tabletennis.jfif)">Box 5</div>
+      <div class="box" id="box6" style="background-image:url(../images/sports/running.jfif)">Box 6</div>
+    </div>
+    
 
 
     <div class="content-wrapper">
@@ -73,5 +81,17 @@
 
 
 </body>
+<script>
+  const portfolioItems = document.querySelectorAll('.box')
 
+  portfolioItems.forEach(portfolioItem => {
+    portfolioItem.addEventListener('mouseover', () => {
+      portfolioItem.classList.add('img-darken');
+    })
+
+    portfolioItem.addEventListener('mouseout', () => {
+      portfolioItem.classList.remove('img-darken');
+    })
+  })
+</script>
 </html>
