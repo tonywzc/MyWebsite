@@ -15,13 +15,13 @@ body {
 h1 {
   text-align: center;
   color: navy;    
-  font-size: 64px;
+  font-size: 10vh;
 }
 
 p {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  font-size: 40px;
+  font-size: 5vmax;
   font-weight: bold;
   color: black;
 }
@@ -36,8 +36,9 @@ hr.head-divider {
   /* background-image: linear-gradient(to right, white, rgb(29, 43, 54), white);
   color: white; */
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 0.5em;
 }
+
 hr.head-divider:after {
   content: "§";
   display: inline-block;
@@ -57,8 +58,8 @@ hr.foot-divider {
   /* border-top: 1px solid lightsteelblue; */
   /* color: whitesmoke; */
   text-align: center;
-  margin-top: 45px;
-  margin-bottom: -15px;
+  margin-top: 2em;
+  margin-bottom: -1em;
   background-image: linear-gradient(to right, whitesmoke, rgb(29, 43, 54), whitesmoke);
 }
 
@@ -70,36 +71,37 @@ hr.foot-divider {
   display:flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px;
-  padding-bottom: 5px;
+  padding: 1em;
+  padding-bottom: 0.2em;
 }
 
 #foot{
   display:flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px;
-  padding-bottom: 10px;
+  padding: 1em;
+  padding-bottom: 0.4em;
 }
 
 .left-side{
   display:flex;
-  margin-left: 10px;
+  margin-left: 0.4em;
 }
 
 .nav-wrapper > .left-side > div{
-  margin-right:30px;
-  font-size:0.9em;
+  margin-right: 1.2em;
+  font-size: 1vw;
   text-transform: uppercase;
 }
 
 .nav-link-wrapper{
-  height: 22px;
+  height: 1.4em;
   border-bottom: 1px solid transparent;
   transition: border-bottom 0.5s;
 }
 
 .nav-link-wrapper a{
+  font-size: 80%;
   color: lightgray; 
   text-decoration: none;
   transition: color 0.5s;
@@ -117,8 +119,8 @@ hr.foot-divider {
   position: relative;
   color:white;
   font-size: 0.8em;
-  top: -2.5px;
-  margin-right: 10px;
+  top: -0.1em;
+  margin-right: 0.2em;
 }
 
 #footnote-signature{
@@ -139,11 +141,21 @@ hr.foot-divider {
 }
 
 .portfolio-img-background{
-  height: 750px;
+  height: 85vh;
   width: 100%;
   background-size: cover;   /* This cropps the image so they are the same size in the grid */
   background-position: center;
   background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1000px) {
+  .portfolio-img-background{
+    height: 40vh;
+    width: 100%;
+    background-size: cover;   /* This cropps the image so they are the same size in the grid */
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
 
 .img-text-wrapper{
@@ -163,7 +175,8 @@ hr.foot-divider {
 .logo-wrapper img {
   height: auto;
   width:50%;
-  margin-bottom: 20px;
+  margin-bottom: 1em;
+   /*20px  */
 }
 
 
@@ -178,9 +191,10 @@ hr.foot-divider {
 }
 
 .subtitle{
-  padding-top: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-top: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
+  /* 20px 40px 40px */
 }
 
 .img-text-wrapper .subtitle{
