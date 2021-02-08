@@ -20,13 +20,13 @@ h1 {
 
 p {
   text-align: center;
-  font-family: "Times New Roman", Times, serif;
+  /* font-family: "Times New Roman", Times, serif; */
   font-size: 5vmax;
   font-weight: bold;
   color: black;
 }
 
-/* divier style */
+/* divider style */
 
 hr.head-divider {
   overflow: visible; /* For IE */
@@ -59,7 +59,7 @@ hr.foot-divider {
   /* color: whitesmoke; */
   text-align: center;
   margin-top: 2em;
-  margin-bottom: -1em;
+  margin-bottom: -0.5rem;
   background-image: linear-gradient(to right, whitesmoke, rgb(29, 43, 54), whitesmoke);
 }
 
@@ -90,8 +90,13 @@ hr.foot-divider {
 
 .nav-wrapper > .left-side > div{
   margin-right: 1.2em;
-  font-size: 1vw;
+  font-size: 1rem;
   text-transform: uppercase;
+  font-family: 'Source Serif Pro', serif;
+}
+
+.nav-wrapper > .right-side > div{
+  font-family: 'Source Serif Pro', serif;
 }
 
 .nav-link-wrapper{

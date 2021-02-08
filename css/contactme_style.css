@@ -20,13 +20,7 @@ h1 {
     font-family: 'Arial Narrow Bold';
   }
   
-  p {
-    text-align: center;
-    font-family: Georgia;
-    font-size: 24px;
-    color: white;
-    text-align: left;
-  }
+  
 
 
 /* Navigation bar styles */
@@ -140,8 +134,10 @@ hr.foot-divider {
 }
 
 .grid-wrapper > div > p{
+    font-size: 2rem;
     color: black;
     text-align: center;
+    font-family: 'Source Serif Pro', serif;;
 }
 
 #insicon{
@@ -149,4 +145,15 @@ hr.foot-divider {
     margin-left: auto;
     margin-right: auto;
     width:7.5%;
+}
+
+
+.grid-wrapper > div >  a{
+  color: black;
+  text-align: center;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 1.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

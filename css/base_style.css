@@ -1,100 +1,44 @@
 /* Master styles */
 
 body {
-    margin: 0px;
-    background-color: rgb(29, 43, 54);
-  }
+  margin: 0px;
+  background-color: rgb(29, 43, 54);
+}
 
 .cnotainer{
-    display: grid;
-    grid-template-columns: 1fr; /* one frational unit, 100 percent */
+  display: grid;
+  grid-template-columns: 1fr; /* one frational unit, 100 percent */
 }
-  
 
-/* Paragraph sytles */
+/* Index notice and SpongeBob sytles */
   
 h1 {
-    text-align: center;
-    color: goldenrod;    
-    font-size: 52px;
-    font-family: 'Arial Narrow Bold';
-  }
-  
-  p {
-    text-align: center;
-    font-family: Georgia;
-    font-size: 24px;
-    color: white;
-    text-align: left;
-  }
+  text-align: center;
+  color: navy;    
+  font-size: 10vh;
+}
 
+p {
+  text-align: center;
+  /* font-family: "Times New Roman", Times, serif; */
+  font-size: 5vmax;
+  font-weight: bold;
+  color: black;
+}
 
-/* Navigation bar styles */
+/* divider style */
 
-.nav-wrapper{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px;
-    padding-bottom: 22px;
-  }
-  
-  .left-side{
-    display:flex;
-    margin-left: 10px;
-  }
-  
-  .nav-wrapper > .left-side > div{
-    margin-right:30px;
-    font-size:0.9em;
-    text-transform: uppercase;
-  }
-  
-  .nav-link-wrapper{
-    height: 22px;
-    border-bottom: 1px solid transparent;
-    transition: border-bottom 0.5s;
-  }
-  
-  .nav-link-wrapper a{
-    color: lightgray; 
-    text-decoration: none;
-    transition: color 0.5s;
-  }
-  
-  .nav-link-wrapper:hover{
-    border-bottom: 1px solid white;
-  }
-  
-  .nav-link-wrapper a:hover{
-    color: white;
-  }
-  
-  .name_logo{
-    position: relative;
-    color:white;
-    font-size: 0.8em;
-    top: -2.5px;
-    margin-right: 10px;
-  }
-  
-  #footnote-signature{
-    font-size: 0.8em;
-    color: white;
-  }
-
-/* divier style */
-  
 hr.head-divider {
   overflow: visible; /* For IE */
   padding: 0;
   border: none;
-  border-top: 1px solid lightgray;
+  border-top: 0.5px solid lightgray;
   /* background-image: linear-gradient(to right, white, rgb(29, 43, 54), white);
   color: white; */
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 0.5em;
 }
+
 hr.head-divider:after {
   content: "§";
   display: inline-block;
@@ -114,13 +58,77 @@ hr.foot-divider {
   /* border-top: 1px solid lightsteelblue; */
   /* color: whitesmoke; */
   text-align: center;
-  margin-top: 45px;
-  margin-bottom: -15px;
+  margin-top: 2em;
+  margin-bottom: -0.5rem;
   background-image: linear-gradient(to right, whitesmoke, rgb(29, 43, 54), whitesmoke);
 }
 
-#inline-divider-wrapper{
-  width: 20%;
-  align-content: left;
+
+/* Navigation bar styles */
+
+.nav-wrapper{
+  position: sticky;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  padding-bottom: 0.2em;
 }
 
+#foot{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  padding-bottom: 0.4em;
+}
+
+.left-side{
+  display:flex;
+  margin-left: 0.4em;
+}
+
+.nav-wrapper > .left-side > div{
+  margin-right: 1.2em;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: 'Source Serif Pro', serif;
+}
+
+.nav-wrapper > .right-side > div{
+  font-family: 'Source Serif Pro', serif;
+}
+
+.nav-link-wrapper{
+  height: 1.4em;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a{
+  font-size: 80%;
+  color: lightgray; 
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover{
+  border-bottom: 1px solid white;
+}
+
+.nav-link-wrapper a:hover{
+  color: white;
+}
+
+.name_logo{
+  position: relative;
+  color:white;
+  font-size: 0.8em;
+  top: -0.1em;
+  margin-right: 0.2em;
+}
+
+#footnote-signature{
+  font-size: 0.8em;
+  color: white;
+}
