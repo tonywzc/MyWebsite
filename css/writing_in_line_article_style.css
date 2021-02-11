@@ -76,11 +76,11 @@ body {
     margin-right: 1.2em;
     font-size: 1rem;
     text-transform: uppercase;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Source Serif Pro', "楷体", serif;
   }
   
   .nav-wrapper > .right-side > div{
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Source Serif Pro', "楷体", serif;
   }
   
   .nav-link-wrapper{
@@ -132,14 +132,14 @@ body {
   h2{
       color: white;
       font-size: 2rem;
-      font-family: 'Source Serif Pro', serif;
+      font-family: 'Source Serif Pro', "楷体", serif;
       text-align: center;
   }
 
   h3{
     color: white;
     font-size: 0.8rem;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Source Serif Pro', "楷体", serif;
     text-align: center;
   }
     /* use it for author name */
@@ -153,15 +153,16 @@ body {
   
   p {
     text-align: left;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Source Serif Pro', "楷体", serif;
     font-size: 1rem;
     color: white;
     line-height: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 
   li{
     text-align: left;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Source Serif Pro', "楷体", serif;
     font-size: 1rem;
     color: white;
     line-height: 1.5rem;
