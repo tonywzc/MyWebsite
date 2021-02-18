@@ -36,6 +36,9 @@ Spongebob: (search for spongebob to the start of the project)
 Project:
     ☐ Let's make a beautiful one-stop profile website about Tony Wang
     General Todos:
+        ☐ Priority: make the website suitable for professional use
+        ☐ Priority: make the website complete (simple content, good looking design)
+
         ☐ add in privacy and terms @30m
         ✔ add in all the links for the 6 parts @20m @done(21-02-06 00:41)
         ✔ construct contact me page @30m @done(21-02-06 00:41)
@@ -43,7 +46,10 @@ Project:
         ☐ design at a high level about what to do on each page @30m
         ☐ make headers sticky @10m
         ☐ make sure heights of boxes is proportion to viewport @20m
-        
+    
+    Get Professional:
+        ☐ change the about me page to professional version @5m
+
     About Me Part:
         ☐ make sure text is proportion to viewport @15m
         ☐ fix the header padding (different from index) @15m

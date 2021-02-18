@@ -5,10 +5,10 @@ body {
     background-color: rgb(29, 43, 54);
   }
 
-.cnotainer{
+/* .container{
     display: grid;
-    grid-template-columns: 1fr; /* one frational unit, 100 percent */
-}
+    grid-template-columns: 1fr; 
+} */
   
 
   /* Index notice and SpongeBob sytles */
