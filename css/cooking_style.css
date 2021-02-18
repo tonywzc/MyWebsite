@@ -154,8 +154,8 @@ body {
   }
 
   .box{
-    width: 20%;
-    height: 80%;
+    width: 20vw;
+    height: 80vh;
     background-color: #041e42;
     border-radius: 20px;
     box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
