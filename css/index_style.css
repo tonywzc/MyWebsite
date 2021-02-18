@@ -88,6 +88,11 @@ hr.foot-divider {
   margin-left: 0.4em;
 }
 
+.right-side{
+  display:flex;
+  margin-left: 0.4em;
+}
+
 .nav-wrapper > .left-side > div{
   margin-right: 1.2em;
   font-size: 1rem;
@@ -127,9 +132,6 @@ hr.foot-divider {
   top: -0.1em;
   margin-right: 0.2em;
   display:flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
   padding: 1em;
   padding-bottom: 0.2em;
 }
