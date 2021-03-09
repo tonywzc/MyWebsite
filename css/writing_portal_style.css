@@ -155,7 +155,7 @@ body {
     color: white;
     border-radius: 20px;
 
-    height: 75vh;
+    height: 45rem;
     width: 60%;
     background-size: cover;   /* This cropps the image so they are the same size in the grid */
     background-position: center;
@@ -173,7 +173,7 @@ body {
     background: transparent;
     font-size: 2rem;
     margin: 0.5rem;
-    height: 5vh;
+    height: 2.5rem;
  }
 
   .two-column-wrapper > .left-wrapper {
