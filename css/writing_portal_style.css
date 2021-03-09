@@ -1,0 +1,227 @@
+/* Master styles */
+
+body {
+    margin: 0px;
+    background-color: rgb(29, 43, 54);
+  }
+  
+  /* .container{
+    display: grid;
+    grid-template-columns: 1fr; 
+  } */
+  
+  /* Index notice and SpongeBob sytles */
+    
+  h1 {
+    text-align: center;
+    color: navy;    
+    font-size: 10vh;
+  }
+  
+  p {
+    text-align: center;
+    /* font-family: "Times New Roman", Times, serif; */
+    font-size: 5vmax;
+    font-weight: bold;
+    color: black;
+  }
+  
+  /* divider style */
+  
+  hr.head-divider {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: 0.5px solid lightgray;
+    /* background-image: linear-gradient(to right, white, rgb(29, 43, 54), white);
+    color: white; */
+    text-align: center;
+    margin-bottom: 0.5em;
+  }
+  
+  hr.head-divider:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: transparent;
+    color:white;
+  }
+  
+  hr.foot-divider {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    height: 1px;
+    /* border-top: 1px solid lightsteelblue; */
+    /* color: whitesmoke; */
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: -0.5rem;
+    background-image: linear-gradient(to right, whitesmoke, rgb(29, 43, 54), whitesmoke);
+  }
+  
+  
+  /* Navigation bar styles */
+  
+  .nav-wrapper{
+    position: sticky;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    padding-bottom: 0.2em;
+  }
+  
+  #foot{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    padding-bottom: 0.4em;
+  }
+  
+  .left-side{
+    display:flex;
+    margin-left: 0.4em;
+  }
+  
+  .nav-wrapper > .left-side > div{
+    margin-right: 1.2em;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: 'Source Serif Pro', serif;
+  }
+  
+  .nav-wrapper > .right-side > div{
+    font-family: 'Source Serif Pro', serif;
+  }
+  
+  .nav-link-wrapper{
+    height: 1.4em;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+  }
+  
+  .nav-link-wrapper a{
+    font-size: 80%;
+    color: lightgray; 
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+  
+  .nav-link-wrapper:hover{
+    border-bottom: 1px solid white;
+  }
+  
+  .nav-link-wrapper a:hover{
+    color: white;
+  }
+  
+  .name_logo{
+    position: relative;
+    color:white;
+    font-size: 0.8em;
+    top: -0.1em;
+    margin-right: 0.2em;
+  }
+  
+  #footnote-signature{
+    font-size: 0.8em;
+    color: white;
+  }
+
+  /* writing portal style starts down below */
+
+  .two-column-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-row: auto;
+    grid-auto-rows: minmax(50px, auto); 
+    /* if content exceeds 280px, it will stretch. Default is 100px */
+    margin: 3em 3em;
+    justify-items: center;
+  }
+
+  .left-wrapper, .right-wrapper {
+    position: relative;
+    background: #ddd;
+    text-align: center;
+    padding: 1em;
+    margin: 1em 1em;
+    color: white;
+    border-radius: 20px;
+
+    height: 75vh;
+    width: 60%;
+    background-size: cover;   /* This cropps the image so they are the same size in the grid */
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .two-column-wrapper > .left-wrapper:hover, .right-wrapper:hover{
+    transition: 0.5s;
+    transform: scale(1.03);
+    filter: brightness(80%);
+  }
+
+ .left-title, .right-title{
+    color: white;
+    background: transparent;
+    font-size: 2rem;
+    margin: 0.5rem;
+    height: 5vh;
+ }
+
+  .two-column-wrapper > .left-wrapper {
+    background-image: url("../images/Writing/portal-personal3.1.jpg");
+  }
+
+  .two-column-wrapper > .right-wrapper {
+    background-image: url("../images/Writing/portal-product.jpg");
+  }
+
+  .personal-link{
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+
+  .product-link{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+  .personal-title, .product-title{
+      display: none;
+      text-align: center;
+      color: navy;
+      font-size: 2rem;
+      font-family: 'Source Serif Pro', serif; 
+      padding-top: 1rem;
+      
+  }
+
+  /* .left-wrapper:hover .personal-title{
+    display: block;
+    position: absolute;
+      top: 50%;
+      bottom: 50%;
+      left: 50%;
+      right: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%,-50%);
+    margin-top: -1.5rem;
+    margin-left: -10rem;
+  }
+
+  .right-wrapper:hover .product-title{
+    display: flex;
+  }
+   */
