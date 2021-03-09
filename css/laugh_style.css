@@ -1,0 +1,277 @@
+/* Master styles */
+
+body {
+    margin: 0px;
+    background-color: rgb(29, 43, 54);
+  }
+
+/* .container{
+    display: grid;
+    grid-template-columns: 1fr; 
+} */
+  
+
+/* Paragraph sytles */
+  
+h1 {
+    text-align: center;
+    color: goldenrod;    
+    font-size: 52px;
+    font-family: 'Arial Narrow Bold';
+  }
+  
+  p {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 24px;
+    color: white;
+    text-align: left;
+  }
+
+
+/* Navigation bar styles */
+
+.nav-wrapper{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    padding-bottom: 22px;
+  }
+  
+  .left-side{
+    display:flex;
+    margin-left: 10px;
+  }
+  
+  .nav-wrapper > .left-side > div{
+    margin-right:30px;
+    font-size:0.9em;
+    text-transform: uppercase;
+  }
+  
+  .nav-link-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+  }
+  
+  .nav-link-wrapper a{
+    color: lightgray; 
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+  
+  .nav-link-wrapper:hover{
+    border-bottom: 1px solid white;
+  }
+  
+  .nav-link-wrapper a:hover{
+    color: white;
+  }
+  
+  .name_logo{
+    position: relative;
+    color:white;
+    font-size: 0.8em;
+    top: -2.5px;
+    margin-right: 10px;
+  }
+  
+  #footnote-signature{
+    font-size: 0.8em;
+    color: white;
+  }
+
+/* divider style */
+  
+hr.head-divider {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: 1px solid lightgray;
+  /* background-image: linear-gradient(to right, white, rgb(29, 43, 54), white);
+  color: white; */
+  text-align: center;
+  margin-bottom: 15px;
+}
+hr.head-divider:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: transparent;
+  color:white;
+}
+
+hr.foot-divider {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  height: 1px;
+  /* border-top: 1px solid lightsteelblue; */
+  /* color: whitesmoke; */
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: -15px;
+  background-image: linear-gradient(to right, whitesmoke, rgb(29, 43, 54), whitesmoke);
+}
+
+#inline-divider-wrapper{
+  width: 20%;
+  align-content: left;
+}
+
+/* Below is general writing.html content style */
+
+a, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.three-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+
+.item-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.my-items{
+    text-align: center;
+    list-style-position: inside;
+    width: 1100px;
+    color:white;
+
+}
+
+.my-items li{
+    display: flex;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px 20px; 
+    margin: 5px 0;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+#item-header{
+  background:rgb(29, 43, 54);
+  transition: none;
+  margin-bottom: 10px;
+}
+
+#item-header .upload-tag{
+  background: none;
+}
+
+/* .my-items li::marker{
+  margin-left: -30px;
+} */
+
+/* .my-items a:nth-child(1){
+    font-weight: 1000;
+    background: rgba(35, 255, 255, 0.6);
+} */
+
+/* #item-link1 li{
+  background: rgba(255, 255, 255, 0.6);
+}
+
+#item-link2 li{
+  background: rgba(255, 255, 255, 0.4);
+}
+
+#item-link3 li{
+  background: rgba(255, 255, 255, 0.25);
+} */
+
+#item-link1 li:hover, #item-link2 li:hover, #item-link3 li:hover{
+  transform: scale(1.1);
+  background: rgb(29, 43, 54);
+}
+
+/* .my-items li span{
+  display: flex;
+  justify-content: space-around;
+} */
+
+.my-items li span:nth-child(1){
+    margin-left: 0px;
+    width: 30px;
+}
+
+.my-items li span:nth-child(2){
+    width: 400px;
+}
+
+.my-items li span:nth-child(3){
+    width: 100px;
+}
+
+.my-items li span:nth-child(4){
+    margin-left: 20px;
+    width: 100px;
+}
+
+.my-items li span:nth-child(5){
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 400px;
+  margin-left: 30px;
+  text-align: center;
+  font-style: italic;
+}
+
+#tag-header{
+    color: white;
+    font-style: normal;
+}
+
+.my-items li{
+    pointer-events: all;
+}
+
+.container{
+    pointer-events: none;
+}
+
+.container:hover{
+    animation-duration: 1s;
+    background-image: url("../images/Laugh/bg-dave.jpg");
+}
+
+
+
+
+
+.my-items li:hover{
+    transform: scale(1.1);
+    background: rgb(29, 43, 54);
+}
+
+#item-header{
+    background: transparent;
+}
+
+#item-header:hover{
+  transform: none;
+}
+
+/* .item-name{
+    color: white;
+}
+
+.item-upload-date{
+    color:white;
+}
+
+.item-tag{
+    color:white;
+} */
+
