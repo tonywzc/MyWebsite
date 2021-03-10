@@ -244,6 +244,9 @@ a, a:visited {
 .container:hover{
     animation-duration: 1s;
     background-image: url("../images/Laugh/bg-dave.jpg");
+    background-size: cover;   /* This cropps the image so they are the same size in the grid */
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
