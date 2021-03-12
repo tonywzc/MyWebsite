@@ -71,7 +71,7 @@ body {
     display:flex;
     margin-left: 0.4em;
   }
-
+  
   .right-side{
     display:flex;
     margin-left: 0.4em;
@@ -81,11 +81,11 @@ body {
     margin-right: 1.2em;
     font-size: 1rem;
     text-transform: uppercase;
-    font-family: 'Source Serif Pro', "楷体", serif;
+    font-family: 'Source Serif Pro', serif;
   }
   
   .nav-wrapper > .right-side > div{
-    font-family: 'Source Serif Pro', "楷体", serif;
+    font-family: 'Source Serif Pro', serif;
   }
   
   .nav-link-wrapper{
