@@ -146,9 +146,9 @@ body {
 
   h2{
       color: white;
-      font-size: 2rem;
+      font-size: 2.5rem;
       font-family: 'Source Serif Pro', "楷体", serif;
-      text-align: center;
+      text-align: left;
   }
 
   h3{
@@ -163,7 +163,8 @@ body {
     color: white;
     font-size: 0.8rem;
     font-family: 'Source Serif Pro', "楷体", serif;
-    text-align: center;
+    text-align: left;
+    font-style: italic;
   }
     /* use it for author name */
 
@@ -197,6 +198,11 @@ body {
     display: block;
     margin: auto;
     max-width: 100%;
+  }
+
+  #thefirstmirror{
+    height:auto;
+    width: 100%;
   }
 
   table, th, td{
