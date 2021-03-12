@@ -71,6 +71,11 @@ body {
     display:flex;
     margin-left: 0.4em;
   }
+
+  .right-side{
+    display:flex;
+    margin-left: 0.4em;
+  }
   
   .nav-wrapper > .left-side > div{
     margin-right: 1.2em;
