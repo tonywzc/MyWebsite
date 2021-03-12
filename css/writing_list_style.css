@@ -201,12 +201,11 @@ a, a:visited {
 } */
 
 .my-articles li span:nth-child(1){
-    margin-left: 30px;
     width: 80px;
 }
 
 .my-articles li span:nth-child(2){
-    width: 200px;
+    width: 300px;
 }
 
 .my-articles li span:nth-child(3){
@@ -218,20 +217,21 @@ a, a:visited {
 }
 
 .my-articles li span:nth-child(5){
-  width: 100px;
+  width: 150px;
 }
 
 .my-articles li span:nth-child(6){
   color: red;
-  background: rgb(255,215,0,1);
   font-weight: 600;
   border-radius: 5px;
-  width: 100px;
+  width: 200px;
   margin-left: 50px;
   text-align: center;
 }
 
-
+.new-tag{
+  background: rgb(255,215,0,1);
+}
 
 .my-articles li:hover{
     transform: scale(1.1);
