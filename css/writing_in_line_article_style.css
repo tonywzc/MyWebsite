@@ -121,7 +121,7 @@ body {
   }
 
   #google_translate_element{
-    width: 300px;
+    width: auto;
   }
   
   #footnote-signature{
