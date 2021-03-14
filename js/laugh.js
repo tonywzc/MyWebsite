@@ -3,7 +3,7 @@
 let container = document.querySelector('.container');
 let list = document.querySelectorAll('.item-link');
 let intro = document.querySelector('.intro');
-var imgsArr = ["placeholder","url(../images/Laugh/bg-dave.jpeg)","url(../images/Laugh/bg-trevor.jpg)","url(../images/Laugh/bg-jimmy.jpg)","url(../images/Laugh/bg-kevin.jpeg)","url(../images/Laugh/bg-russell.jpg)","url(../images/Laugh/bg-russell.jpg)","url(../images/Laugh/bg-desi.jpg)","url(../images/Laugh/bg-ronny.jfif)",] ;//array of backgroud img's url
+var imgsArr = ["placeholder","url(../images/Laugh/bg-dave.jpeg)","url(../images/Laugh/bg-trevor.jpg)","url(../images/Laugh/bg-pete.jpg)","url(../images/Laugh/bg-kevin.jpeg)","url(../images/Laugh/bg-russell.jpg)","url(../images/Laugh/bg-russell.jpg)","url(../images/Laugh/bg-desi.jpg)","url(../images/Laugh/bg-ronny.jfif)",] ;//array of backgroud img's url
 
 function hover (num) {
     container.style.backgroundImage = imgsArr[num]; // this number should be #link
