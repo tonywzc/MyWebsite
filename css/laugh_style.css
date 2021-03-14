@@ -145,14 +145,14 @@ a, a:visited {
 
 .intro{
   color: white;
-  font-size: 2rem;
-  width: 80%;
+  font-size: 1rem;
+  width: 90%;
 }
 
 .intro-p{
   text-align: center;
   color: white;
-  font-size: 2rem;
+  font-size: 200%;
 }
 
 
@@ -189,7 +189,7 @@ a, a:visited {
   text-align: center;
   display: flex;
   margin: auto;
-  width: 7%;
+  width: 25px;
   justify-content: space-between;
 }
 
@@ -325,7 +325,6 @@ a, a:visited {
 
 .platform-required{
   color: red;
-  background: #FCF6F5FF;
   border-radius: 5px;
   display: inline-flex;
   align-items: center;

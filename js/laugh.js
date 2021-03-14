@@ -20,6 +20,7 @@ function unhover (num) {
         if (i == num) {}                            // this number should be #link
         else {list[i].style.opacity = 1;}
     }
+    intro.style.opacity = 1;
 }
 
 
