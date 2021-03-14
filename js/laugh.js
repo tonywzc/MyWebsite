@@ -1,23 +1,28 @@
 
-
 let container = document.querySelector('.container');
 let list = document.querySelectorAll('.item-link');
 let intro = document.querySelector('.intro');
-var imgsArr = ["placeholder","url(../images/Laugh/bg-dave.jpeg)","url(../images/Laugh/bg-trevor.jpg)","url(../images/Laugh/bg-pete.jpg)","url(../images/Laugh/bg-kevin.jpeg)","url(../images/Laugh/bg-russell.jpg)","url(../images/Laugh/bg-russell.jpg)","url(../images/Laugh/bg-desi.jpg)","url(../images/Laugh/bg-ronny.jfif)",] ;//array of backgroud img's url
+let page = document.body.id;
+var imgsArr_page1 = ["placeholder","url(../images/Laugh/bg-dave.jpeg)","url(../images/Laugh/bg-trevor.jpg)","url(../images/Laugh/bg-pete.jpg)","url(../images/Laugh/bg-kevin.jpeg)","url(../images/Laugh/bg-russell.jpg)"];//array of backgroud img's url
+var imgsArr_page2 = ["placeholder","url(../images/Laugh/bg-desi.jpg)","url(../images/Laugh/bg-ronny.jfif)","url(../images/Laugh/bg-jimmy.jpg)","url(../images/Laugh/bg-hasan.jpg)","url(../images/Laugh/bg-nikki.jpg)"];
+var imgsArr_page3 = ["placeholder",];
 
 function hover (num) {
-    container.style.backgroundImage = imgsArr[num]; // this number should be #link
+    if (page == "laugh_page1") {container.style.backgroundImage = imgsArr_page1[num]; }
+    else if (page == "laugh_page2") {container.style.backgroundImage = imgsArr_page2[num]; }
+    else if (page == "laugh_page3") {container.style.backgroundImage = imgsArr_page3[num]; }
+    
     for (var i = 0, len = list.length; i < len; i++) {
-        if (i == num) {}                            // this number should be #link
+        if (i == num) {}                            
         else {list[i].style.opacity = 0.7;}
     }
     intro.style.opacity = 0;
 }
 
 function unhover (num) {
-    container.style.backgroundImage = null; // this number should be #link
+    container.style.backgroundImage = null; 
     for (var i = 0, len = list.length; i < len; i++) {
-        if (i == num) {}                            // this number should be #link
+        if (i == num) {}                            
         else {list[i].style.opacity = 1;}
     }
     intro.style.opacity = 1;
@@ -73,50 +78,51 @@ document.querySelector('#link-5').addEventListener("mouseout", function(event){
     unhover (linknum);
 })
 
-document.querySelector('#link-6').addEventListener("mouseover", function(event){
-    var linknum = 6; 
-    hover (linknum);
-})
-document.querySelector('#link-6').addEventListener("mouseout", function(event){
-    var linknum = 6; 
-    unhover (linknum);
-})
 
-document.querySelector('#link-7').addEventListener("mouseover", function(event){
-    var linknum = 7; 
-    hover (linknum);
-})
-document.querySelector('#link-7').addEventListener("mouseout", function(event){
-    var linknum = 7; 
-    unhover (linknum);
-})
+// document.querySelector('#link-6').addEventListener("mouseover", function(event){
+//     var linknum = 6; 
+//     hover (linknum);
+// })
+// document.querySelector('#link-6').addEventListener("mouseout", function(event){
+//     var linknum = 6; 
+//     unhover (linknum);
+// })
 
-document.querySelector('#link-8').addEventListener("mouseover", function(event){
-    var linknum = 8; 
-    hover (linknum);
-})
-document.querySelector('#link-8').addEventListener("mouseout", function(event){
-    var linknum = 8; 
-    unhover (linknum);
-})
+// document.querySelector('#link-7').addEventListener("mouseover", function(event){
+//     var linknum = 7; 
+//     hover (linknum);
+// })
+// document.querySelector('#link-7').addEventListener("mouseout", function(event){
+//     var linknum = 7; 
+//     unhover (linknum);
+// })
 
-document.querySelector('#link-9').addEventListener("mouseover", function(event){
-    var linknum = 9; 
-    hover (linknum);
-})
-document.querySelector('#link-9').addEventListener("mouseout", function(event){
-    var linknum = 9; 
-    unhover (linknum);
-})
+// document.querySelector('#link-8').addEventListener("mouseover", function(event){
+//     var linknum = 8; 
+//     hover (linknum);
+// })
+// document.querySelector('#link-8').addEventListener("mouseout", function(event){
+//     var linknum = 8; 
+//     unhover (linknum);
+// })
 
-document.querySelector('#link-10').addEventListener("mouseover", function(event){
-    var linknum = 10; 
-    hover (linknum);
-})
-document.querySelector('#link-10').addEventListener("mouseout", function(event){
-    var linknum = 10; 
-    unhover (linknum);
-})
+// document.querySelector('#link-9').addEventListener("mouseover", function(event){
+//     var linknum = 9; 
+//     hover (linknum);
+// })
+// document.querySelector('#link-9').addEventListener("mouseout", function(event){
+//     var linknum = 9; 
+//     unhover (linknum);
+// })
+
+// document.querySelector('#link-10').addEventListener("mouseover", function(event){
+//     var linknum = 10; 
+//     hover (linknum);
+// })
+// document.querySelector('#link-10').addEventListener("mouseout", function(event){
+//     var linknum = 10; 
+//     unhover (linknum);
+// })
 
 
 
