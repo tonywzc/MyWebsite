@@ -8,7 +8,7 @@ if (brushRadius < 50) { brushRadius = 50 }
 img.onload = function(){  
 	bridgeCanvas.drawImage(img, 0, 0, bridge.width, bridge.height);
 }
-img.loc = 'C:/Users/wangtony/OneDrive - Microsoft/Desktop/MyWebsite/MyWebsite/images/photo_scratcher';
+img.loc = 'https://raw.githubusercontent.com/tonywzc/MyWebsite/main/images/photo_scratcher/';
 img.filename = 'pic1.jpg';
 if (window.devicePixelRatio >= 2) {
 	var nameParts = img.filename.split('.');

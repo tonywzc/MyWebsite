@@ -4,8 +4,8 @@ body { margin: 0; }
 	display: block;
 	margin: auto;
     margin-top: 15rem;
-    background-image: url('C:/Users/wangtony/OneDrive - Microsoft/Desktop/MyWebsite/MyWebsite/images/photo_scratcher');
-	background-image: -webkit-image-set(url('C:/Users/wangtony/OneDrive - Microsoft/Desktop/MyWebsite/MyWebsite/images/photo_scratcher') 1x, url('C:/Users/wangtony/OneDrive - Microsoft/Desktop/MyWebsite/MyWebsite/images/photo_scratcher') 2x );
+    background-image: url('https://raw.githubusercontent.com/tonywzc/MyWebsite/main/images/photo_scratcher/pic2.jpg');
+	background-image: -webkit-image-set(url('https://raw.githubusercontent.com/tonywzc/MyWebsite/main/images/photo_scratcher/pic2.jpg') 1x, url('https://raw.githubusercontent.com/tonywzc/MyWebsite/main/images/photo_scratcher/pic2.jpg') 2x );
 	background-size: cover;
 	width: 100%;
 	max-width: 750px;
