@@ -10,12 +10,13 @@ img.onload = function(){
 }
 img.loc = 'https://raw.githubusercontent.com/tonywzc/MyWebsite/main/images/photo_scratcher/';
 img.filename = 'pic1.jpg';
-if (window.devicePixelRatio >= 2) {
-	var nameParts = img.filename.split('.');
-	img.src = img.loc + nameParts[0]+"-2x"+"."+nameParts[1];
-} else {
-	img.src = img.loc + img.filename;
-}
+img.src = img.loc + img.filename;
+// if (window.devicePixelRatio >= 2) {
+// 	var nameParts = img.filename.split('.');
+// 	img.src = img.loc + nameParts[0]+"-2x"+"."+nameParts[1];
+// } else {
+// 	img.src = img.loc + img.filename;
+// }
 
 function detectLeftButton(event) {
     if ('buttons' in event) {
@@ -45,10 +46,10 @@ function drawDot(mouseX,mouseY){
 
 bridge.addEventListener("mousemove", function(e) {
 	var brushPos = getBrushPos(e.clientX, e.clientY);
-  var leftBut = detectLeftButton(e);
-  if (leftBut == 1) {
-		drawDot(brushPos.x, brushPos.y);
-  }
+    var leftBut = detectLeftButton(e);
+    if (leftBut == 1) {
+        drawDot(brushPos.x, brushPos.y);
+    }
 }, false);
 
 bridge.addEventListener("touchmove", function(e) {
