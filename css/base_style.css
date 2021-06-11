@@ -5,6 +5,14 @@ body {
   background-color: rgb(29, 43, 54);
 }
 
+a {
+  color: white;
+}
+
+a:visited {
+  color: gray;
+}
+
 /* .container{
   display: grid;
   grid-template-columns: 1fr; 
